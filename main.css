@@ -1,0 +1,76 @@
+section {
+	position: relative;
+  top: 75px;
+}
+
+.center {
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    border: 3px solid dodgerblue;
+    background-color: rgba(0, 191, 255, 0.9);
+    padding: 10px;
+}
+
+IMG.jake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 140px;
+	  width: 130px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid dodgerblue;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: -5px;
+}
+
+p {
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+body {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183162/lake.jpg");
+    background-size: 2000px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.twitter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 87px;
+    left: -100px;
+	  width: 53px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -100px;
+    border-radius: 20%;
+}
+
+.insta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    left: 100px;
+	  width: 60px;
+    display: block;
+    margin: 0 auto;
+}
