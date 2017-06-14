@@ -1,0 +1,242 @@
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav,
+	.row, 
+  .col,
+  .bio, 
+  .tagline, 
+  .name, .hobbit, .bookcover,.book {
+		display: flex; 
+	}
+
+	.main-header
+  .bio{
+		flex-direction: row;
+		align-items: center;
+    width: 90%;
+		margin: 0 auto;
+	}
+  
+  .row {
+    width: 90%;
+		margin: 0 auto;
+  }
+  
+    .book {
+    width: 90%;
+		margin: 0 auto;
+  }
+  
+  .bio{
+    width: 90%;
+		margin: auto;
+  }
+  
+	.col {
+		flex: 1;
+    flex-direction: column;
+	}
+  
+  .hobbit {
+		flex: 1;
+    flex-direction: column;
+	}
+  
+  .button {
+    margin-top: auto;
+    align-self: flex-end;
+  }
+  
+  .tagline {
+    margin: auto;
+  }
+  
+
+
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+    width: 80%;
+		max-width: 1150px;
+	}
+  
+  .row {
+    width: 80%;
+		max-width: 1150px;
+  }
+
+  .book {
+    width: 80%;
+		max-width: 1150px;
+  }
+
+
+}
+  
+}
+
+/* ========= */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Slabo 27px', serif;
+	line-height: 1.6;
+	color: white;
+	margin: 0;
+  background:radial-gradient(ellipse at center, rgba(74,74,74,1) 0%, rgba(26,26,26,1) 100%);
+  /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183162/lake.jpg");
+  background-size: 2000px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;  */
+}
+
+.primary {
+  order: 3;
+}
+
+  .tagline {
+		font-size: 1em;
+    margin: 0 0 1em 0;
+    padding: 10px 10px;   
+	}
+
+p {
+	font-size: .95em;
+	margin: 0 0 1em 0;
+}
+h2,
+h3,
+a {
+  font-family: 'Oswald', sans-serif;
+	color: white;
+}
+h2,
+h3 {
+	margin: 0 0 .8em 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+h4{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h5{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  margin-top: 60px;
+  margin-bottom: -50px;
+}
+
+/* ---- */
+
+.name {
+	font-size: 1.35em;
+	margin: 0;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: .95em;
+	color: dodgerblue;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ------ */
+
+.main-header {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.banner,
+.main-footer {
+	text-align: center;
+}
+.banner {
+	color: #fff;
+	background: rgba(0, 191, 255, 0);
+	padding: 10px;
+  width: 70%;
+  height: 70%;
+  border: 3px solid rgba(30, 144, 255, 0);
+  border-radius: 6px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.col {
+	padding: 1em;
+	background: rgba(30, 144, 255, 1);
+	border-radius: .35em;
+	margin: 0 .5em .8em;
+}
+
+.hobbit {
+	padding: 1em;
+	background: rgba(30, 144, 255, 1);
+	border-radius: .35em;
+	margin: 0 3em;
+}
+
+.main-footer {
+  font-family: 'Oswald', sans-serif;
+	background: dodgerblue;
+	padding: .3em 0;
+	margin-top: 70px;
+}
+
+/* ---- */
+
+.jake {
+  border: 3px solid dodgerblue;
+  border-radius: 50%;
+	width: 190px;
+}
+.headline {
+  font-family: 'Oswald', sans-serif;
+	margin-top: 0px;
+  margin-bottom: 5px;
+}
+.feat-img {
+	border-radius: 5px;
+}
+.button {
+	color: white;
+	text-align: center;
+	padding: .625em 1.25em;
+	background: lightskyblue;
+	border-radius: .35em;
+}
+
+.bookcover {
+  max-width: 100px;
+  align-self: center;
+}
